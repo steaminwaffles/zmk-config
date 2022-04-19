@@ -14,7 +14,7 @@
 	keymap {
 		compatible = "zmk,keymap";
 		default_layer {
-			label = "でしょう";
+			label = " go crazy";
 
 			sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
 
@@ -27,7 +27,7 @@
 			>;
 		};	
 		function_layer {
-			label = "go crazy";
+			label = " go stupid";
 			
 			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
 

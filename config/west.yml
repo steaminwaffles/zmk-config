@@ -2,12 +2,24 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: steaminwaffles
-      url-base: https://github.com/steaminwaffles
+    - name: cdc-mkb
+      url-base: https://github.com/cdc-mkb
+    - name: fossephate
+      url-base: https://github.com/fossephate
   projects:
     - name: zmk
-      remote: steaminwaffles
+      remote: fossephate
       revision: main
       import: app/west.yml
+  # projects:
+  #   - name: zmk
+  #     remote: cdc-mkb
+  #     revision: mouse-pim447
+  #     import: app/west.yml
+  # projects:
+  #   - name: zmk
+  #     remote: zmkfirmware
+  #     revision: main
+  #     import: app/west.yml
   self:
     path: config
